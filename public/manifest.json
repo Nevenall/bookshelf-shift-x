@@ -1,6 +1,6 @@
 {
-  "name": "BookShelf",
-  "short_name": "BookShelf",
+  "name": "BookShelf-Shift-X",
+  "short_name": "Shift-X",
   "icons": [{
       "src": "icons/android-chrome-192x192.png",
       "sizes": "192x192",
