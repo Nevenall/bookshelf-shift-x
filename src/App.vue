@@ -6,26 +6,27 @@
          </md-button>
          <span class="md-title">BookShelf
             <md-icon>chevron_right</md-icon>
-            Shift-X
+            Shift-X!
          </span>
       </md-app-toolbar>
       <md-app-drawer :md-active.sync="drawer">
          <div class="drawer-logo">
-            <img src="./assets/logo-vertical.png" alt="bookshelf logo">
+            <img src="./assets/logo-only.png" alt="shift-x logo">
+            <p class="primary-text">Shift-X v0.0-beta released 11/20/2018</p>
          </div>
          <md-list>
+            <md-list-item v-for="page in book.pages" :key="page.path" @click="pushNav(page.path)">{{page.name}}</md-list-item>
             <md-list-item md-expand v-for="section in book.sections" :key="section.name">
                <span class="md-list-item-text">{{section.name}}</span>
                <md-list slot="md-expand">
                   <md-list-item class="md-inset" v-for="nestedPage in section.pages" :key="nestedPage.path" @click="pushNav(nestedPage.path)">{{nestedPage.name}}</md-list-item>
                </md-list>
             </md-list-item>
-            <md-list-item v-for="page in book.pages" :key="page.path" @click="pushNav(page.path)">{{page.name}}</md-list-item>
          </md-list>
       </md-app-drawer>
       <md-app-content>
          <div id="page">
-            <router-view/>
+            <router-view />
          </div>
       </md-app-content>
    </md-app>
@@ -59,7 +60,11 @@ export default {
 
 @include md-register-theme(
   "default",
-  (primary: #0a1c20, accent: #d01e00, background: #ffffff)
+  (
+    primary: #0a1c20,
+    accent: #d01e00,
+    background: #ffffff
+  )
 );
 @import "~vue-material/dist/theme/all";
 @import "fonts/system-fonts.css";
