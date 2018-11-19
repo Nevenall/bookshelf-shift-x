@@ -80,10 +80,6 @@ var pageOrder = {
       {
          "name": "Events",
          "path": "./System/04 Events.html"
-      },
-      {
-         "name": "Events",
-         "path": "./Atlas/04 Events.html"
       }
    ]
 }
