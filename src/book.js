@@ -62,21 +62,30 @@ class Page {
 var pageOrder = {
    "title": "Shift-X",
    "pages": [{
-      "name": "Introduction",
-      "path": "./README.html"
-   }, {
-      "name": "The Basics",
-      "path": "./System/01 Basics.html"
-   }, {
-      "name": "Heroes",
-      "path": "./System/02 Characters.html"
-   }, {
-      "name": "Teams",
-      "path": "./System/03 Teams.html"
-   }, {
-      "name": "Events",
-      "path": "./System/04 Events.html"
-   }]
+         "name": "Introduction",
+         "path": "./README.html"
+      },
+      {
+         "name": "The Basics",
+         "path": "./System/01 Basics.html"
+      },
+      {
+         "name": "Heroes",
+         "path": "./System/02 Heroes.html"
+      },
+      {
+         "name": "Teams",
+         "path": "./System/03 Teams.html"
+      },
+      {
+         "name": "Events",
+         "path": "./System/04 Events.html"
+      },
+      {
+         "name": "Events",
+         "path": "./Atlas/04 Events.html"
+      }
+   ]
 }
 
 var pages = pageOrder.pages.map((p) => {
