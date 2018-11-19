@@ -6,6 +6,7 @@
          </md-button>
          <span class="md-title">BookShelf
             <md-icon>chevron_right</md-icon>
+            Shift-X
          </span>
       </md-app-toolbar>
       <md-app-drawer :md-active.sync="drawer">
