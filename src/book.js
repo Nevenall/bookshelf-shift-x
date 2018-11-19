@@ -66,7 +66,7 @@ var pageOrder = {
          "path": "./README.html"
       },
       {
-         "name": "The Basics",
+         "name": "Basics",
          "path": "./System/01 Basics.html"
       },
       {

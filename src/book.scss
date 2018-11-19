@@ -114,7 +114,7 @@ ul {
    list-style: none;
 }
 
-ul>ul {
+ul ul {
    margin-left: 1em;
 }
 
@@ -125,7 +125,7 @@ ol {
    counter-reset: mylist;
 }
 
-ol>ol {
+ol ol {
    margin-left: 1em;
 }
 
