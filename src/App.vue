@@ -39,7 +39,7 @@ export default {
     return {
       drawer: false,
       book: Book,
-      title: "BookShelf"
+      title: "Shift-X"
     };
   },
   methods: {
@@ -58,7 +58,7 @@ export default {
 
 @include md-register-theme(
   "default",
-  (primary: #448aff, accent: #ff6600, background: #ffffff)
+  (primary: #0a1c20, accent: #d01e00, background: #ffffff)
 );
 @import "~vue-material/dist/theme/all";
 @import "fonts/system-fonts.css";

@@ -67,55 +67,55 @@
 @font-face {
    font-family: 'Branding';
    font-style: normal;
-   font-weight: 400;
-   src: url(Atomic-Wedgie.woff2) format('woff2');
+   font-weight: 500;
+   src: url(Branding-Medium.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: italic;
+   font-weight: 500;
+   src: url(Branding-MediumItalic.woff2) format('woff2');
 }
 
 @font-face {
    font-family: 'Branding';
    font-style: normal;
-   font-weight: 400;
-   src: url(Atomic-Wedgie.woff2) format('woff2');
+   font-weight: 600;
+   src: url(Branding-Semibold.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: italic;
+   font-weight: 600;
+   src: url(Branding-SemiboldItalic.woff2) format('woff2');
 }
 
 @font-face {
    font-family: 'Branding';
    font-style: normal;
-   font-weight: 400;
-   src: url(Atomic-Wedgie.woff2) format('woff2');
+   font-weight: 200;
+   src: url(Branding-Semilight.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: italic;
+   font-weight: 200;
+   src: url(Branding-SemilightItalic.woff2) format('woff2');
 }
 
 @font-face {
    font-family: 'Branding';
    font-style: normal;
-   font-weight: 400;
-   src: url(Atomic-Wedgie.woff2) format('woff2');
+   font-weight: 100;
+   src: url(Branding-Thin.woff2) format('woff2');
 }
 
 @font-face {
    font-family: 'Branding';
-   font-style: normal;
-   font-weight: 400;
-   src: url(Atomic-Wedgie.woff2) format('woff2');
-}
-
-@font-face {
-   font-family: 'Branding';
-   font-style: normal;
-   font-weight: 400;
-   src: url(Atomic-Wedgie.woff2) format('woff2');
-}
-
-@font-face {
-   font-family: 'Branding';
-   font-style: normal;
-   font-weight: 400;
-   src: url(Atomic-Wedgie.woff2) format('woff2');
-}
-
-@font-face {
-   font-family: 'Branding';
-   font-style: normal;
-   font-weight: 400;
-   src: url(Atomic-Wedgie.woff2) format('woff2');
+   font-style: italic;
+   font-weight: 100;
+   src: url(Branding-ThinItalic.woff2) format('woff2');
 }
