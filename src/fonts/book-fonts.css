@@ -1,1 +1,121 @@
-/* define font faces for your book here and place the files in fonts/ */
+/* define font faces for your book here and place the files in fonts */
+
+@font-face {
+   font-family: 'AtomicWedgie';
+   font-style: normal;
+   font-weight: 400;
+   src: url(Atomic-Wedgie.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'AtomicWedgieOutline';
+   font-style: normal;
+   font-weight: 400;
+   src: url(Atomic-Wedgie-Outline.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'BigTime';
+   font-style: normal;
+   font-weight: 400;
+   src: url(BigTime-Regular.woff2) format('woff2');
+}
+
+
+@font-face {
+   font-family: 'Branding';
+   font-style: normal;
+   font-weight: 900;
+   src: url(Branding-Black.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: italic;
+   font-weight: 900;
+   src: url(Branding-BlackItalic.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: normal;
+   font-weight: 700;
+   src: url(Branding-Bold.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: italic;
+   font-weight: 700;
+   src: url(Branding-BoldItalic.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: normal;
+   font-weight: 300;
+   src: url(Branding-Light.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: italic;
+   font-weight: 300;
+   src: url(Branding-LightItalic.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: normal;
+   font-weight: 400;
+   src: url(Atomic-Wedgie.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: normal;
+   font-weight: 400;
+   src: url(Atomic-Wedgie.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: normal;
+   font-weight: 400;
+   src: url(Atomic-Wedgie.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: normal;
+   font-weight: 400;
+   src: url(Atomic-Wedgie.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: normal;
+   font-weight: 400;
+   src: url(Atomic-Wedgie.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: normal;
+   font-weight: 400;
+   src: url(Atomic-Wedgie.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: normal;
+   font-weight: 400;
+   src: url(Atomic-Wedgie.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Branding';
+   font-style: normal;
+   font-weight: 400;
+   src: url(Atomic-Wedgie.woff2) format('woff2');
+}
