@@ -95,14 +95,14 @@
 @font-face {
    font-family: 'Branding';
    font-style: normal;
-   font-weight: 200;
+   font-weight: 400;
    src: url(Branding-Semilight.woff2) format('woff2');
 }
 
 @font-face {
    font-family: 'Branding';
    font-style: italic;
-   font-weight: 200;
+   font-weight: 400;
    src: url(Branding-SemilightItalic.woff2) format('woff2');
 }
 
