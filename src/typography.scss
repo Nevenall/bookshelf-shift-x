@@ -6,6 +6,7 @@ a,
 th,
 td,
 dd;
+
 & {
    max-width: 35em;
    margin: auto;
@@ -18,7 +19,7 @@ dd;
 }
 
 
-#{$textElements}{
+#{$textElements} {
    hyphens: auto;
    -ms-hyphenate-limit-lines: 2;
 }
@@ -43,7 +44,12 @@ h6 {
 .columns {
    column-count: 2;
    column-gap: 3em;
+   column-fill: balance;
+   // margin: auto;
+   // text-align: center;
 }
+
+
 
 .columns>ul:first-child {
    margin-top: 0;
@@ -94,36 +100,45 @@ aside {
    font-weight: 300;
    font-size: 0.8rem;
    line-height: 1.5625;
+
    #{$textElements} {
       font-size: 0.8rem;
    }
+
    h1 {
       font-size: 3.052rem;
    }
+
    h2 {
       font-size: 2.441rem;
    }
+
    h3 {
       font-size: 1.953rem;
    }
+
    h4 {
       font-size: 1.563rem;
    }
+
    h5 {
       font-size: 1.25rem;
    }
+
    h6 {
       font-size: 1rem;
    }
 }
 
 @media screen and (min-width: 49em) {
+
    /* breakpoint for text intrusion sidebars */
    aside.left {
       width: 11.5em;
       float: left;
       margin-left: -7em;
    }
+
    aside.right {
       width: 11.5em;
       float: right;
@@ -135,68 +150,87 @@ aside {
    h1 {
       font-size: 4.292rem;
    }
+
    h2 {
       font-size: 3.433rem;
    }
+
    h3 {
       font-size: 2.747rem;
    }
+
    h4 {
       font-size: 2.197rem;
    }
+
    h5 {
       font-size: 1.758rem;
    }
+
    h6 {
       font-size: 1.406rem;
    }
+
    #{$textElements} {
       font-size: 1.125rem;
    }
+
    small {
       font-size: 0.9rem;
    }
+
    aside.left {
       width: 11.5em;
       float: left;
       margin-left: -12.5em;
    }
+
    aside.right {
       width: 11.5em;
       float: right;
       margin-right: -12.5em;
    }
+
    article.left {
       width: 23em;
       float: left;
       margin-left: -12.5em;
    }
+
    article.right {
       width: 23em;
       float: right;
       margin-right: -12.5em;
    }
+
    aside,
    article {
       font-size: .9rem;
+
       #{$textElements} {
          font-size: 0.9rem;
       }
+
       h1 {
          font-size: 3.433rem;
       }
+
       h2 {
          font-size: 2.747rem;
       }
+
       h3 {
          font-size: 2.197rem;
       }
+
       h4 {
          font-size: 1.758rem;
       }
+
       h5 {
          font-size: 1.406rem;
       }
+
       h6 {
          font-size: 1.125rem;
       }
@@ -207,21 +241,25 @@ aside {
    & {
       max-width: 36em;
    }
+
    aside.left {
       width: 15em;
       float: left;
       margin-left: -16em;
    }
+
    aside.right {
       width: 15em;
       float: right;
       margin-right: -16em;
    }
+
    article.left {
       width: 30em;
       float: left;
       margin-left: -27em;
    }
+
    article.right {
       width: 30em;
       float: right;
@@ -233,71 +271,91 @@ aside {
    h1 {
       font-size: 5.009rem;
    }
+
    h2 {
       font-size: 4.007rem;
    }
+
    h3 {
       font-size: 3.206rem;
    }
+
    h4 {
       font-size: 2.564rem;
    }
+
    h5 {
       font-size: 2.052rem;
    }
+
    h6 {
       font-size: 1.641rem;
    }
+
    #{$textElements} {
       font-size: 1.3125rem;
    }
+
    small {
       font-size: 1.05rem;
    }
+
    & {
       max-width: 38em;
    }
+
    aside.left {
       float: left;
       width: 20em;
       margin-left: -21em;
    }
+
    aside.right {
       width: 20em;
       float: right;
       margin-right: -21em;
    }
+
    article.left {
       width: 30em;
       float: left;
       margin-left: -31em;
    }
+
    article.right {
       width: 30em;
       float: right;
       margin-right: -31em;
    }
+
    aside,
    article {
       font-size: 1.05rem;
+
       #{$textElements} {
          font-size: 1.05rem;
       }
+
       h1 {
          font-size: 4.007rem;
       }
+
       h2 {
          font-size: 3.206rem;
       }
+
       h3 {
          font-size: 2.564rem;
       }
+
       h4 {
          font-size: 2.052rem;
       }
+
       h5 {
          font-size: 1.641rem;
       }
+
       h6 {
          font-size: 1.313rem;
       }
