@@ -51,16 +51,12 @@ th {
 .figure-table {
    max-width: 100%;
    overflow-x: auto;
+   display: flex;
+   flex-direction: column;
 }
 
-table caption {
-   caption-side: bottom;
-   /* border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: $secondary-color; */
-}
 
-table caption::before {
+.figure-table::after {
    content: "";
    display: block;
    height: 2px;
@@ -72,6 +68,11 @@ table caption::before {
 figure {
    margin: 0;
    padding: 0;
+   order: 1;
+}
+
+figcaption {
+   order: 2;
 }
 
 .quoted {
@@ -204,8 +205,6 @@ dd {
 .game-term {
    color: $secondary-color;
 }
-
-
 
 
 article::before {
