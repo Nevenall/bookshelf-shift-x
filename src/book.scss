@@ -107,10 +107,11 @@ figcaption {
 }
 
 blockquote {
-   margin-left: -1em;
+   margin-left: 0em;
    margin-right: 2em;
    padding-left: 1em;
-   border-left-width: 3px;
+   border-left-width: 2px;
+   //border-image: linear-gradient($background-color, $secondary-color, $background-color);
    border-left-style: solid;
    border-left-color: $secondary-color;
 }
