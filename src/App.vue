@@ -12,7 +12,6 @@
       <md-app-drawer :md-active.sync="drawer">
          <div class="drawer-logo">
             <img src="./assets/logo-only.png" alt="shift-x logo">
-            <p class="primary-text">Shift-X v0.0-beta released 11/20/2018</p>
          </div>
          <md-list>
             <md-list-item v-for="page in book.pages" :key="page.path" @click="pushNav(page.path)">{{page.name}}</md-list-item>
