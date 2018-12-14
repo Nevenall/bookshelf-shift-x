@@ -66,7 +66,7 @@ var pageOrder = {
          "path": "./README.html"
       },
       {
-         "name": "QuickStart"
+         "name": "QuickStart",
          "path": "./System/00 Quickstart.html"
       },
       {
